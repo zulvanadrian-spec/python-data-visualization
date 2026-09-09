@@ -40,7 +40,7 @@ print(df["Departement"].value_counts()) # --> descending
 
 # --- FIND UNIQUE VALUES ---
 print("\n+-+-+-+ DISPLAY UNIQUE DEPARTEMENT NAMES +-+-+-+")
-print(df["Departement"].unique()) # just count values "Departement" in the data
+print(df["Departement"].unique()) # just count values "Departement" in the data without duplicated
 
 # --- SORT AGGREGATION RESLUTS ---
 result = df.groupby("Departement")["Salary"].mean()
