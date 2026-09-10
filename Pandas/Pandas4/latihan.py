@@ -6,7 +6,7 @@ data = {
     "Experience":[2, 5, 3, 1, 6, 2]
 }
 
-# format rupiah, semua data di parse jdi string, ketiak function di panggil
+# format rupiah, semua data di parse jdi string, ketika function di panggil
 def format_rupiah(x):
     return f"Rp{x:,.0f}".replace(",", ".")
 
